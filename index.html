@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inline-block</title>
+    <style>
+        .container{
+            background-color: rgb(154, 167, 170);
+            padding: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+            height: 1000px;
+
+        }
+        .cards{
+            background-color: rgb(169, 191, 202);
+            color: rgb(10, 66, 79);
+            font-size: 20px;
+            border: solid;
+           border-width: 3px;
+            border-color: rgb(5, 42, 43);
+            height: 280px;
+            width: 240px;
+            border-radius: 10px 10px;
+            margin: 10px 10px;
+            text-align: center;
+           
+           
+            
+        }
+        .button{
+            background-color: rgb(208, 169, 118);
+            color: black;
+            border-radius: 25px 25px;
+        }
+        .image{
+            display: inline-block;
+            margin: 8px 8px;
+            padding: 8px 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+   
+    <div class="cards"><img src="./24 new.jpeg" height="100px" class="image"> <b>Samsung galaxy S24</b> &nbsp; &nbsp; <br/><br/>
+         <b>₹57,350</b> M.R.P: <del>₹74,999</del> FREE delivery <br/> 
+    <button class="button">Add to cart</button></div> 
+
+    <div class="cards"><img src="./S23.jpg" height="100px" class="image"> <b>Samsung galaxy S23</b> &nbsp; &nbsp; <br/><br/>
+        <b>₹52,700 </b> M.R.P: <del> ₹95,999 </del> FREE delivery <br/> 
+   <button class="button">Add to cart</button></div> 
+ 
+   <div class="cards"><img src="./s24-ultra new.jpg" height="100px" class="image"> <b>Samsung galaxy S24 ultra</b> &nbsp; &nbsp; <br/>
+    <b>₹1,59,999</b> M.R.P: <del> ₹1,64,999</del> FREE delivery <br/> 
+    <button class="button">Add to cart</button></div> 
+ 
+    <div class="cards"><img src="./Samsung-Galaxy-S23-Ultra-Review-AM-AH-05.jpg" height="100px" class="image"> <b>Samsung galaxy S23 ultra</b> &nbsp; &nbsp; <br/>
+        <b>₹94,999   </b> M.R.P: <del>₹1,61,999</del> FREE delivery <br/>
+        <button class="button">Add to cart</button></div> 
+    </div>
+</body>
+</html>
